@@ -17,7 +17,7 @@
     /* The Box Model */
 
     #container1 {
-      width: 5000px;
+      width: 1000px;
       background-color: transparent;
       clear: both;
       position: relative;
@@ -27,8 +27,8 @@
 
     #blockA {
       background-color: #96C5F7;
-      width: 333px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
       display: inline;
       float: left;
       padding: 10px;
@@ -36,18 +36,18 @@
 
     #blockB {
       background-color: #A9D3FF;
-      width: 333px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
       display: inline;
       float: left;
       padding: 10px;
-      margin-block: left: 5px;
+      margin: 0 5px;
     }
 
     #blockC {
       background-color: #F2F4FF;
-      width: 333px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
       display: inline;
       float: left;
       padding: 10px;
@@ -56,22 +56,24 @@
     /* Floating */
 
     #container2 {
-      width: 100%;
+      width: 800px;
       height: 500px;
       background-color: #D0D6B5;
       clear: both;
     }
 
     #blockD {
-      width: 333px;
+      width: 75%;
       height: 200px;
       background-color: #F9B5AC;
+      float: left;
     }
 
     #blockE {
-      width: 333px;
+      width: 25%;
       height: 200px;
       background-color: #EE7674;
+      float: right;
     }
 
     /* Positioning */
@@ -89,12 +91,17 @@
       width: 333px;
       height: 200px;
       background-color: #7FBEAB;
+      float: left;
+      position: relative;
+	  	left: 50px;
+  		top: 50px;
     }
 
     #blockH {
       width: 333px;
       height: 200px;
       background-color: #7E998A;
+      position: relative;
     }
   </style>
 
